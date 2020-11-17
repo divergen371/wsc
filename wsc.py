@@ -1,5 +1,6 @@
 from threading import Thread
 from scapy.layers.dot11 import Dot11, Dot11Beacon, Dot11Elt
+from scapy.sendrecv import sniff
 import pandas
 import time
 import os
